@@ -1,0 +1,95 @@
+:root {
+  --SoftBlue: hsl(215, 51%, 70%);
+  --Cyan: hsl(178, 100%, 50%);
+  --VeryDarkBlue1: hsl(217, 54%, 11%); 
+  --VeryDarkBlue2: hsl(216, 50%, 16%);
+  --VeryDarkBlue3: hsl(215, 32%, 27%);
+  --White: hsl(0, 0%, 100%);
+  --Outfit-font: 'Outfit', sans-serif;;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--VeryDarkBlue1);
+  font-size: 18px;
+  font-family: var(--Outfit-font);
+  color: var(--White);
+}
+
+.card-component{
+  background-color: var(--VeryDarkBlue2);
+  border-radius: 10px;
+  margin: 50px auto;
+  max-width: 250px;
+}
+p {
+  padding-bottom: 1rem;
+  font-size: 0.8rem;
+  font-weight: 300;
+  opacity: 0.5;
+  line-height: 1.3rem;
+}
+h1 {
+  padding: 1rem 0;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.card-body {
+  max-width: 200px;
+  margin: 1.5rem;  
+  padding: 1.5rem 0;
+  
+}
+.card-body img {
+  width: 200px;
+  height: 250px;
+  border-radius: 5px;
+}
+
+.etherum-clock {
+  display: flex;
+  justify-content: space-between;
+}
+
+.etherum {
+  display: flex;
+  color: var(--Cyan);
+}
+.etherum p {
+  font-weight: 600;
+  padding-left: 0.3rem;
+}
+
+.clock {
+  display: flex;
+}
+
+.clock p {
+  padding-left: 0.3rem;
+}
+
+
+.card-creator{
+  display: flex;
+  border-top: solid 1px grey;
+  padding-top: 1rem;
+}
+
+.card-creator p{
+  padding-left: 0.5rem;
+}
+.card-creator img {
+  width: 25px;
+  height: 25px;
+  border: solid 1px var(--White);
+  border-radius: 25px;
+  
+
+}
+
